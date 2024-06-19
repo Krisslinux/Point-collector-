@@ -1,3 +1,31 @@
-"scripts": {
-  "start": "node bot.js"
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot with MongoDB integration deployed on Heroku",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.13",
+    "node-telegram-bot-api": "^0.51.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "your_git_repository_url"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "nodejs",
+    "mongoose",
+    "heroku"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
 }
